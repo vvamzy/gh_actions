@@ -1,0 +1,22 @@
+name: Hello World
+on: workflow_dispatch
+jobs:
+  job-1:
+    runs-on: ubuntu-latest
+    steps:
+    - name: print hello
+      run: echo "Hello"
+  job-2:
+    runs-on: ubuntu-latest
+    steps:
+    - name: print world
+      run: echo "World"
+  job-3:
+    runs-on: ubuntu-latest
+    steps:
+    - name: print hello world
+      run: |
+        echo "Running Like This Simplicity"
+        echo "Hello"
+        echo "World"
+        echo "Hello World"
