@@ -6,4 +6,5 @@ ADD . /code
 WORKDIR /code
 RUN echo "Hello"
 RUN pip install gunicorn
+RUN echo "Did it work?"
 RUN pip install -r requirements.txt
